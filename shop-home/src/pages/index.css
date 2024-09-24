@@ -1,0 +1,52 @@
+.home_page {
+  position: relative;
+}
+
+.hot {
+  padding: 12px 6px;
+  background-color: #f7e4e9;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 8px;
+
+  ::-webkit-scrollbar {
+    width: 0 !important;
+    height: 0 !important;
+  }
+}
+
+.hot_title {
+  font-size: 16px;
+  font-weight: bolder;
+  margin-bottom: 8px;
+}
+
+.hot_container {
+  background-color: rgb(248, 246, 246);
+  padding: 8px;
+  border-radius: 8px;
+  overflow: auto;
+  display: flex;
+}
+
+.hot_container .productHot {
+  margin-right: 8px;
+}
+
+.home_page .adm-tabs-header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  height: 42px;
+  background-color: rgb(248, 246, 246);
+}
+
+.product_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.product_list .product_profile {
+  margin-bottom: 2.4rem;
+}

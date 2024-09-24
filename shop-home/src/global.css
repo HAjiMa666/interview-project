@@ -1,0 +1,8 @@
+html {
+  /**
+    移动端适配 vw+rem 结合方案
+  */
+  font-size: calc(100vw / 375 * 10);
+  user-select: none;
+  box-sizing: border-box;
+}
