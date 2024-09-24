@@ -1,0 +1,30 @@
+.modalClassName .ant-modal-content {
+  padding: 0;
+}
+
+.modalClassName .ant-modal-content .ant-modal-close {
+  top: 8px;
+}
+
+.modalClassName .ant-modal-header {
+  padding: 12px;
+
+  background-color: #ccc;
+}
+
+.modalClassName .ant-modal-body {
+  padding: 12px;
+}
+
+.modalClassName .ant-modal-footer {
+  border-top: 1px solid #e8e8e8;
+  padding: 12px;
+}
+
+.upload-item .ant-upload-list {
+  justify-content: center;
+}
+
+.upload-item .ant-form-item-label {
+  text-align: center;
+}
